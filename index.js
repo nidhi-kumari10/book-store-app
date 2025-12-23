@@ -13,7 +13,7 @@ dotenv.config();
 // middleware
 app.use(cors({
   origin:"*",
-  credentials true
+  credentials: true
 }));
 app.use(express.json());
 
