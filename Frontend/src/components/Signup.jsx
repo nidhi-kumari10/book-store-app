@@ -24,7 +24,7 @@ const Signup = () => {
         password: data.password
       }
     
-      await axios.post("/user/signup", userInfo)
+      await axios.post("https://book-store-app-wc75.onrender.com/user/signup", userInfo)
       .then((res)=>{
         console.log(res.data)
         if(res.data){
